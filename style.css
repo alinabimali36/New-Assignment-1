@@ -26,7 +26,7 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #4d4d4d;
+    color: #6b4949;
     font-weight: 500;
 }
 
@@ -36,3 +36,17 @@ body {
     gap:20px;
 }
 
+.btn-login {
+    text-decoration: none;
+    color: #70d173;        
+    font-weight: 500;
+}
+
+.btn-signup {
+    text-decoration: none;
+    background-color: #1cb141; 
+    color: #ffffff;            
+    padding: 10px 20px;        
+    border-radius: 6px;        
+    font-weight: 500;
+}
