@@ -26,7 +26,7 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #6b4949;
+    color: #944f52;
     font-weight: 500;
 }
 
@@ -49,4 +49,7 @@ body {
     padding: 10px 20px;        
     border-radius: 6px;        
     font-weight: 500;
+}
+.nav-links a:hover {
+    color: #1cb141;
 }
