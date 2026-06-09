@@ -108,12 +108,14 @@ color:#1cb141;
 .section-header{
     text-align: center;
     margin-bottom: 40px;
+    padding: 60px 0px 100px 0px;
+    gap: 10;
 }
 .logo-row {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1800px;
     margin: 80px 0px 0px 0px;
     padding: 0 20px;
 
@@ -137,9 +139,10 @@ color:#1cb141;
 
 .card-container{
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     gap: 24px;
-    max-width: 1200px;
+    max-width: 2000px;
+    padding: 0px 0px 60px 0px;
     
 }
 
@@ -150,12 +153,16 @@ color:#1cb141;
     border-radius: 8px;
     box-shadow: 0px 4px 12 px rgba(0,0,0,0.5);
     flex:1;
+    
+    
 }
 
 
 .card-header{
  text-align: center;
  padding: 30px 0px 50px 0px;
+ 
+ 
 }
 .card-icon{
     font-size: 40px;
@@ -171,3 +178,123 @@ color:#1cb141;
     font-size: 14px;
     color: #717171
 }
+
+
+
+
+.footer {
+  
+  color: #666666;           
+  padding: 60px 20px 30px 20px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 2fr; 
+  gap: 50px;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.logo img {
+  display: block;
+  margin-bottom: 20px;
+  object-fit: contain;
+
+}
+
+.footer-text {
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: #777777;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.social-icons img {
+  width: 55px;
+  height: 35px;
+  cursor: pointer;
+
+}
+
+
+
+.col-title {
+  color: #1cb141; 
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+}
+
+
+.links-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  row-gap: 20px;
+  column-gap: 15px;
+}
+
+.links-grid a {
+  color: #777777;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.links-grid a:hover {
+  color: #cc1c1c; 
+}
+
+
+.contact-info {
+  list-style: none;
+}
+
+.contact-info li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.contact-info i {
+  color: #1cb141; 
+  font-size: 14px;
+  margin-top: 4px;
+  width: 15px;
+  text-align: center;
+}
+
+.contact-info p {
+  color: #777777;
+  font-size: 13.5px;
+}
+
+
+.footer-bottom {
+  max-width: 1200px;
+  margin: 50px auto 0 auto;
+  padding-top: 25px;
+  text-align: center;
+  font-size: 12px;
+  color: #555555;
+}
+
+
+  .col-title {
+    margin-bottom: 15px;
+  }
